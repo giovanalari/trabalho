@@ -12,6 +12,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
     display: flex;
     font-family: 'Lora', serif;
 }
@@ -36,21 +37,40 @@ ul{
 .perfil01{
     width: 100%;
     height: 400px;
-    background-color: rgb(0, 255, 68);
+    background-color: rgb(144, 238, 169);
     margin-top: 30px;
 }
 .perfil02{
     width: 100%;
     height: 400px;
-    background-color: rgb(0, 0, 255);
+    background-color: rgb(121, 121, 247);
 }
 .tecDiv{
     width: 100%;
     height: 400px;
-    background-color: rgb(0, 238, 255);
+    background-color: rgb(156, 227, 240);
 }
 .contactDiv{
     width: 100%;
-    height: 400px;
-    background-color: rgb(255, 0, 60);
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 40px;
+}
+.leftcontact{
+    width: 600px;
+    height: 500px;
+    min-width: 300px;
+    background-color: rgb(19, 189, 160);
+}
+.rightcontact{
+    width: 600px;
+    height: 500px;
+    min-width: 300px;
+    background-color: rgb(129, 5, 109);
 }
