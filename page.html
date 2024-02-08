@@ -8,12 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
-    <div class="wrap-menu"> 
         <ul>
             <li><a href="#perfil01">primeiro perfil</a></li>
-            <li><a href="#perfil02">segundo perfil</a></li>
+            <div class="wrap-menu"> 
+    <li><a href="#perfil02">segundo perfil</a></li>
             <li><a href="#tec">tecnologias</a></li>
             <li><a href="#contact">contato</a></li>
         </ul>
@@ -28,7 +29,28 @@
         <p>tec</p>  
     </div>
     <div class="contactDiv" id="contact">
-        <p>contact</p>    
+        <div class="leftcontact">
+            <h2>contato</h2>
+                <p>aqui você pode mandar uma mensagem</p>
+                <div>
+                    <label for="nome">nome</label>
+                    <input type="text" id="nome">
+                </div>
+                <div>
+                    <label for="mensagem">mensagem</label>
+                    <textarea type ="text" id="mensagem"></textarea>
+                </div>  
+                    <div>
+                    <button onclick="conferirMensagemWhatsApp() ">conferir dados</button>
+                    </div>
+        </div> 
+        <div class="rightcontact">
+            <div>
+                <p>nome:<span id="cofnome"></span></p>
+                <p>mensagem:<span id="cofmsg"></span></p>
+            </div>
+            <button onclick="enviarzap()">zap</button>
+        </div>
     </div>
     
 </body>
