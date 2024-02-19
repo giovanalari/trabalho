@@ -22,7 +22,7 @@ body{
     width: 100%;
     height: 30px;
     background-color: black;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-shadow: rgba(248, 246, 246, 0.25) 0px 14px 28px, rgba(231, 222, 222, 0.22) 0px 10px 10px;
     z-index: 999;
     font-family: 'Lora', serif;
 }
@@ -40,7 +40,7 @@ ul{
     height: 600px;
     padding-top: 40px;
     gap: 25px;
-    background-image: url("https://i.pinimg.com/564x/71/4a/c5/714ac579414ac6b1fcd659b80dd566ba.jpg");
+    background-image: url("https://i.pinimg.com/564x/bd/e4/26/bde4267bab62c98da92ac41b5d940a6b.jpg");
     filter: brightness(70%);
 }
 
@@ -53,6 +53,7 @@ ul{
     height: 250px; /* height of container */
     object-fit: cover;
     border: 3px solid white;
+    box-shadow: rgba(248, 246, 246, 0.25) 0px 14px 28px, rgba(231, 222, 222, 0.22) 0px 10px 10px;
 }
 .img02{
     position: absolute;
@@ -63,6 +64,7 @@ ul{
     height: 250px; /* height of container */
     object-fit: cover;
     border: 3px solid white;
+    box-shadow: rgba(248, 246, 246, 0.25) 0px 14px 28px, rgba(231, 222, 222, 0.22) 0px 10px 10px;
 }
 .img03{
     position: absolute;
@@ -73,6 +75,7 @@ ul{
     height: 250px; /* height of container */
     object-fit: cover;
     border: 3px solid white;
+    box-shadow: rgba(248, 246, 246, 0.25) 0px 14px 28px, rgba(231, 222, 222, 0.22) 0px 10px 10px;
 }
 .inst{
     position: absolute;
@@ -112,9 +115,8 @@ ul{
     height: 600px;
     padding-top: 40px;
     gap: 25px;
-    background-image: url("https://i.pinimg.com/564x/3b/79/e8/3b79e83380c08eaf6642a3f4feca28d4.jpg");
+    background-image: url("https://i.pinimg.com/564x/bd/e4/26/bde4267bab62c98da92ac41b5d940a6b.jpg");
     filter: brightness(70%);
-    background-size: cover;
 }
 
 .img04{
@@ -126,6 +128,7 @@ ul{
     height: 250px; /* height of container */
     object-fit: cover;
     border: 3px solid white;
+    box-shadow: rgba(248, 246, 246, 0.25) 0px 14px 28px, rgba(231, 222, 222, 0.22) 0px 10px 10px;
 }
 .img05{
     position: absolute;
@@ -136,6 +139,7 @@ ul{
     height: 250px; /* height of container */
     object-fit: cover;
     border: 3px solid white;
+    box-shadow: rgba(248, 246, 246, 0.25) 0px 14px 28px, rgba(231, 222, 222, 0.22) 0px 10px 10px;
 }
 .img06{
     position: absolute;
@@ -146,6 +150,7 @@ ul{
     height: 250px; /* height of container */
     object-fit: cover;
     border: 3px solid white;
+    box-shadow: rgba(248, 246, 246, 0.25) 0px 14px 28px, rgba(231, 222, 222, 0.22) 0px 10px 10px;
 }
 .inst2{
     position: absolute;
@@ -209,6 +214,7 @@ ul{
     width: 500px;
     height: 470px;
     margin-top: 70px;
+    box-shadow: rgba(248, 246, 246, 0.25) 0px 14px 28px, rgba(231, 222, 222, 0.22) 0px 10px 10px;
 }
 .css{
     border-radius: 20px;
@@ -216,6 +222,7 @@ ul{
     width: 500px;
     height: 500px;
     margin-top: 70px;
+    box-shadow: rgba(248, 246, 246, 0.25) 0px 14px 28px, rgba(231, 222, 222, 0.22) 0px 10px 10px;
 }
 .jvs{
     border-radius: 20px;
@@ -223,6 +230,7 @@ ul{
     width: 500px;
     height: 570px;
     margin-top: 70px;
+    box-shadow: rgba(248, 246, 246, 0.25) 0px 14px 28px, rgba(231, 222, 222, 0.22) 0px 10px 10px;
 }
 .texthtml{
     color: white;
@@ -254,6 +262,7 @@ ul{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: white;
     font-family: "IBM Plex Mono", monospace;
+    box-shadow: rgba(248, 246, 246, 0.25) 0px 14px 28px, rgba(231, 222, 222, 0.22) 0px 10px 10px;
 }
 .rightcontact{
     display: flex;
@@ -264,4 +273,5 @@ ul{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: white;
     font-family: "IBM Plex Mono", monospace;
+    box-shadow: rgba(248, 246, 246, 0.25) 0px 14px 28px, rgba(231, 222, 222, 0.22) 0px 10px 10px;
 }
